@@ -3,17 +3,17 @@ import bcrypt from 'bcrypt-nodejs';
 import cors from 'cors';
 import knex from 'knex';
 
-const postgres = knex({
+const db = knex({
     client: 'pg',
     connection: {
-        host : '127.0.0.1',
-        user : 'postgres',
-        password : '',
-        database : 'test'
+      host : '',
+      user : 'postgres',
+      password : '',
+      database : 'face-brain'
     }
-});
+  });
 
-console.log(postgres.select('*').from('users'));
+console.log(db.select('*').from('users'));
 
 const app = express();
 
