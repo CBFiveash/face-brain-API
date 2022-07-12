@@ -1,7 +1,5 @@
 # face-brain-API
  
-<<<<<<< HEAD
-=======
 // create a new repo echo "# readme" >> README.md 
 git init 
 git add README.md 
@@ -19,4 +17,3 @@ git branch -m master main
 git fetch origin
 git branch -u origin/main main 
 git remote set-head origin -a
->>>>>>> e4099edad5ece1a271274516c25ad58425d1220a
